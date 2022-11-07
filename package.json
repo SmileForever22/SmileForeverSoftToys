@@ -2,7 +2,7 @@
   "name": "smileforever",
   "homepage": "https://SmileForever22.github.io/SmileForeverSoftToys",
   "version": "1.0.0",
-  "description": "",
+  "description": "SMILE FOREVER SOFT TOYS",
   "main": "backend/server.js",
   "scripts": {
     "predeploy": "npm run build",
@@ -27,9 +27,6 @@
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20",
     "stripe": "^10.14.0",
-    "validator": "^13.7.0",
-    "engines": {
-      "node": "^16.18.0"
-    }
+    "validator": "^13.7.0"
   }
 }
