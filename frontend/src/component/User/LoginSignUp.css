@@ -167,16 +167,6 @@
     font: 500 1.8vmax 'Gill Sans';
   }
 
-  #registerImage > img {
-    width: 8vmax;
-    border-radius: 100%;
-  }
-
-  #registerImage > input::file-selector-button {
-    height: 7vh;
-    font: 400 1.8vmax cursive;
-  }
-
   .loginBtn,
   .signUpBtn {
     font: 300 1.9vmax 'Roboto';
