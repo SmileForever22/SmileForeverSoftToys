@@ -8,7 +8,10 @@ const cloudinary = require('cloudinary');
 
 // Register a User
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
-
+  const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
+    folder: 'avatars',
+    width: 150,
+    crop: 'scale',
   });
 
   const { name, email, password } = req.body;
@@ -20,7 +23,7 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
   });
 
   sendToken(user, 201, res);
-
+});
 // Login User
 exports.loginUser = catchAsyncErrors(async (req, res, next) => {
   const { email, password } = req.body;
