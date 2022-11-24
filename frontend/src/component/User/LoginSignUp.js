@@ -33,7 +33,6 @@ const LoginSignUp = ({ history, location }) => {
   const { name, email, password } = user;
 
   const [avatar, setAvatar] = useState('/Profile.png');
-  const [avatarPreview, setAvatarPreview] = useState('/Profile.png');
 
   const loginSubmit = (e) => {
     e.preventDefault();
@@ -58,7 +57,6 @@ const LoginSignUp = ({ history, location }) => {
 
       reader.onload = () => {
         if (reader.readyState === 2) {
-          setAvatarPreview(reader.result);
           setAvatar(reader.result);
         }
       };
