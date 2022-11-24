@@ -49,7 +49,7 @@ const LoginSignUp = ({ history, location }) => {
   };
 
   const registerDataChange = (e) => {
-    if (e.target.name) {
+    if (e.target.name === 'avatar') {
       const reader = new FileReader();
 
       reader.readAsDataURL(e.target.files[0]);
