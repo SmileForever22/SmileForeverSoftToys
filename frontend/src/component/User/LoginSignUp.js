@@ -32,8 +32,6 @@ const LoginSignUp = ({ history, location }) => {
 
   const { name, email, password } = user;
 
-  const [avatar, setAvatar] = useState('/Profile.png');
-
   const loginSubmit = (e) => {
     e.preventDefault();
     dispatch(login(loginEmail, loginPassword));
@@ -47,7 +45,6 @@ const LoginSignUp = ({ history, location }) => {
     myForm.set('name', name);
     myForm.set('email', email);
     myForm.set('password', password);
-
     dispatch(register(myForm));
   };
 
@@ -57,7 +54,6 @@ const LoginSignUp = ({ history, location }) => {
 
       reader.onload = () => {
         if (reader.readyState === 2) {
-          setAvatar(reader.result);
         }
       };
 
