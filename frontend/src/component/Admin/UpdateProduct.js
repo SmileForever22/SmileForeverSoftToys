@@ -38,13 +38,13 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    'Laptop',
-    'Footwear',
-    'Bottom',
-    'Tops',
-    'Attire',
-    'Camera',
-    'SmartPhones',
+    'Teddy',
+    'Rabbit',
+    'Reversible Octopus',
+    'Rattle Ball',
+    'Imported Squirrel',
+    'Cute Pirate',
+    'Print Smiley',
   ];
 
   const productId = match.params.id;
