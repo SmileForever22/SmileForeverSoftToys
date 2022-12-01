@@ -29,12 +29,12 @@ const NewProduct = ({ history }) => {
 
   const categories = [
     'Teddy',
-    'Rabbit',
-    'Reversible Octopus',
-    'Rattle Ball',
-    'Imported Squirrel',
-    'Cute Pirate',
-    'Print Smiley',
+    'Dog',
+    'Cat',
+    'Imported',
+    'Cute',
+    'Elephant',
+    'Others',
   ];
 
   useEffect(() => {
