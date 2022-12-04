@@ -117,6 +117,7 @@ const ProductDetails = ({ match }) => {
                       src={item.url}
                       alt={`${i} Slide`}
                     />
+                    
                   ))}
               </Carousel>
             </div>
