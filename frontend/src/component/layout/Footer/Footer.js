@@ -14,12 +14,6 @@ const Footer = () => {
         <p>High Quality is our first priority</p>
         <p>Copyrights 2022 &copy; Smile Forever</p>
       </div>
-
-      <div className="rightFooter">
-        <h4>Follow Us</h4>
-        <p>Instagram : smileforever_softtoys</p>
-        <p>Facebook</p>
-      </div>
     </footer>
   );
 };
