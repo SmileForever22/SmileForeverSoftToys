@@ -12,13 +12,12 @@ const Footer = () => {
       <div className="midFooter">
         <h1>SMILE FOREVER</h1>
         <p>High Quality is our first priority</p>
-
         <p>Copyrights 2022 &copy; Smile Forever</p>
       </div>
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="https://instagram.com/smileforever_softtoys">Instagram</a>
+        <a href="https://www.instagram.com/smileforever_softtoys/">Instagram</a>
         <a href="http://instagram.com/meabhisingh">Facebook</a>
       </div>
     </footer>
