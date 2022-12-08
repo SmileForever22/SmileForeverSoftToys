@@ -15,7 +15,7 @@ const ConfirmOrder = ({ history }) => {
     0
   );
 
-  const shippingCharges = 45;
+  const shippingCharges = 35;
 
   const tax = 0;
 
